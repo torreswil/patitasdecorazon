@@ -1,0 +1,77 @@
+
+
+h1 {
+	font-family: 'Courgette', cursive;
+	color:#277FA0;
+	text-align: center;
+	margin-top: 12px;
+	font-size: 28px;
+}
+
+nav{
+	display: block;
+	width: 554px;
+	margin:0 auto;
+}
+
+nav ul{
+	padding: 0px 10px 0px 10px;
+}
+
+.content{
+	width: 720px;
+	margin:0 auto;
+}
+.logo-content{
+	display: block;
+	width: 600px;
+	margin: 0 auto;
+}
+
+.logo{
+	display: block;
+	margin: 0 auto;
+}
+
+.logo img{
+	width: 180px;
+	display: block;
+	margin: 0 auto;
+}
+
+.item-nav.active, .item-nav.active:hover{
+	background-image: url(../images/huella.png);
+	background-repeat: no-repeat;
+	color:#FFFFFF;
+}
+
+
+.item-nav{
+	display:inline-block;
+	padding: 88px 23px 39px 70px;
+}
+
+.item-nav:hover{
+	display:inline-block;
+	padding: 88px 23px 39px 70px;
+	background-image: url(../images/huellaHover.png);
+	background-repeat: no-repeat;
+}
+
+.item-nav a{
+	color:#7E7B7B;
+	text-decoration: none;
+	font-family: 'Courgette', cursive;
+
+}
+.item-nav.active a{
+	color:#FFFFFF;
+
+}
+
+.item-nav:not(last-child){
+	margin-right: 30px;
+}
+
+
+
