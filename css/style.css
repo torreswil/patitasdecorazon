@@ -7,6 +7,7 @@ body{
 	overflow: hidden;
 	height:   1%;
 	border-bottom: 0.5px solid greenyellow;
+	padding-left: 64px;
 }
 
 h1{
@@ -21,7 +22,7 @@ h1{
 
 nav{
 	display: inline-block;
-	width: 554px;
+	width: 990px;
 	margin: 15px 40px 0px 0px;
 	float: right;
 }
@@ -116,13 +117,12 @@ nav ul{
 }
 
 .item-nav a{
-	color: greenyellow;
+	color: #277FA0;
 	text-decoration: none;
 	font-family: 'Courgette', cursive;
 }
 .item-nav.active a{
-	color:#FFFFFF;
-
+	color: greenyellow;
 }
 
 .item-nav:not(last-child){
@@ -197,5 +197,9 @@ footer ul li a{
 	text-decoration: none;
 	font-size: 14px;
 	color: #CC0070;
+}
+
+.quienes p{
+	color:greenyellow;
 }
 
