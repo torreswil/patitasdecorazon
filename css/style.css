@@ -17,7 +17,7 @@ h1{
 	margin-top: 12px;
 	padding-bottom: 0px;
 	margin-bottom: 0px;
-	font-size: 26px;
+	font-size: 20px;
 }
 
 nav{
@@ -142,6 +142,11 @@ nav ul{
 	font-size: 22px;
 }
 
+.prio a{
+    color: greenyellow;
+    text-decoration: none;
+}
+
 .imgprio{
 	overflow: hidden;
 	margin: 0 auto;
@@ -203,3 +208,6 @@ footer ul li a{
 	color:greenyellow;
 }
 
+.descri_mascota{
+	color: white;
+}
